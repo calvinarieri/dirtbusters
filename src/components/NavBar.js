@@ -8,7 +8,7 @@ export default function NavBar(){
     const navigationOptions  = ["Home", "Services", "About" , "Testimonials"]
 
     return(
-        <nav className="flex relative  justify-around md:justify-between  tracking-wide font-DMSans  px-4 py-4 font-bold text-xl items-center w-screen" >
+        <nav className="flex relative  justify-around md:justify-between tracking-wide font-DMSans  px-4 py-4 font-bold text-xl items-center" >
             <div className="text-lg md:text-2xl">
                 <span className="text-blue-600">Dirt</span><span className="text-gray-600 ">Busters</span>
             </div>
