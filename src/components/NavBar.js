@@ -13,7 +13,7 @@ export default function NavBar(){
                 <span className="text-blue-600">Dirt</span><span className="text-gray-600 ">Busters</span>
             </div>
             <div>
-                <ol className={`${open ? " absolute z-30 top-14  left-10" :  'hidden ' }  md:flex gap-4`}>
+                <ol className={`${open ? " absolute z-30 top-14  left-0 px-4 py-8 h-screen bg-white w-full" :  'hidden ' }  md:flex gap-4`}>
                     {navigationOptions.map((option,  index)=><li 
                     className ={"hover:text-blue-400 "  + open &&"mt-4 border-b-2 w-full p-2"} 
                     onClick={()=>open&&setOpen(!open)}
