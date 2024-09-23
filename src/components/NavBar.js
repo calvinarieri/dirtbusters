@@ -5,7 +5,7 @@ import { IoMdClose } from "react-icons/io";
 export default function NavBar(){
 
     const [open , setOpen]  = useState(false)
-    const navigationOptions  = ["Home", "Services", "About" , "Testimonials"]
+    const navigationOptions  = ["Home",  "About",  "Services", "Testimonials"]
 
     return(
         <nav className="flex relative  justify-around md:justify-between tracking-wide font-DMSans  px-4 py-4 font-bold text-xl items-center" >
