@@ -14,8 +14,11 @@ export default function NavBar(){
             </div>
             <div>
                 <ol className={`${open ? " absolute z-30 top-14  left-10" :  'hidden ' }  md:flex gap-4`}>
-                    {navigationOptions.map((option,  index)=><li className ={"hover:text-blue-400 "  + open &&"mt-4 border-b-2 w-full p-2"} key = {index}>
-                        <a href={`#${option.toLowerCase()}`}>{option}</a>
+                    {navigationOptions.map((option,  index)=><li 
+                    className ={"hover:text-blue-400 "  + open &&"mt-4 border-b-2 w-full p-2"} 
+                    onClick={()=>open&&setOpen(!open)}
+                     key = {index}>
+                        <a href={`#${option.toLowerCase()}`} className="active:text-blue-400 focus:text-blue-400">{option}</a>
                     </li>)}
                 </ol>
             </div>
