@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily:{
         lato:['Lato'],
+        poppins:['poppins'],
+        DMSans:[ "DM Sans", "sans-serif"]
       }
     },
   },
