@@ -5,8 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        lato:['Lato'],
+      fontFamily:{  
         poppins:['poppins'],
         DMSans:[ "DM Sans", "sans-serif"]
       }
