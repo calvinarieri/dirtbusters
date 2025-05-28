@@ -1,5 +1,6 @@
 import Card from "./Card"
 import { FaArrowRight } from "react-icons/fa";
+import RequestForm from "./RequestForm";
 
 
 export default function Services(){
@@ -17,6 +18,8 @@ export default function Services(){
                 <span className="hidden md:inline-block">Explore more services</span> 
                 <FaArrowRight />
             </button>
+
+            <RequestForm />
         </div>
     )
 }
