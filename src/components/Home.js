@@ -1,4 +1,4 @@
-import laundryImg from '../assets/laudry.png'
+
 
 export default function Home () {
     return(
@@ -13,7 +13,7 @@ export default function Home () {
                 </p>
             </div>
             <div className='px-4 md:px-0'>
-                <img src={laundryImg} alt='img' className='rounded-xl'/>
+                <img src="assets/laundry.png" alt='img' className='rounded-xl'/>
             </div>
         </div>
     )

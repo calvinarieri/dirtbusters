@@ -5,6 +5,7 @@ import About from "../components/About";
 import Testimonials from "../components/Testmonials";
 import Footer from "../components/Footer";
 
+
 export default function HomePage(){
     return(
         <div>
@@ -12,7 +13,7 @@ export default function HomePage(){
             <Home />
             <About />
             <Services /> 
-            <Testimonials />
+            <Testimonials />      
             <Footer />          
         </div>
     )
