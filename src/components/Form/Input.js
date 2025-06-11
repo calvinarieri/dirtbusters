@@ -9,7 +9,7 @@ export default function Input({label,type, placeholder, onChange, name, value,er
         type={type}
         className='border-2 border-blue-500 rounded-xl px-2 py-2 outline-none w-full'
         name={name}
-        onChange={onChange}      
+        onChange={onChange}  
         required={required}
         value={value}
         placeholder ={placeholder}

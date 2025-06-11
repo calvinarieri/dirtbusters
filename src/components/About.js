@@ -13,6 +13,24 @@ export default function About(){
                     With branches in Witeithie, Kibute, and Juja, Gate C Katerina, we're easily accessible to serve clients in surrounding areas.
             </p>
             </div>
+            <div className="w-10/12 py-12">
+                <div className="w-full">
+                    <dl className="flex flex-col gap-16 md:flex-row  justify-around w-full py-2">
+                        <div class="flex flex-col items-center justify-center">
+                            <dt class="mb-2 text-4xl md:text-6xl font-extrabold">2</dt>
+                            <dd class="text-blue-500 text-xl md:text-2xl">Laundries</dd>
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <dt class="mb-2 text-4xl md:text-6xl font-extrabold">5+</dt>
+                            <dd class="text-blue-600 text-xl md:text-2xl">services</dd>
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <dt class="mb-2 text-4xl md:text-6xl font-extrabold">100+</dt>
+                            <dd class="text-blue-600 text-xl md:text-2xl">Happy clients</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
         </div>
     )
 }

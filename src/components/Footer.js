@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <div className="mt-40 bg-gray-50">
+        <div className="mt-8 md:mt-40 bg-gray-50">
             <footer className="flex justify-center flex-col items-center ">
                     <h1 className="text-DMSans text-blue-700 border-b-2 pb-4 px-4 border-blue-400 text-4xl md:text-6xl mt-8">Contact us:</h1>
 
