@@ -23,7 +23,7 @@ export default function Footer(){
 
             <div className="flex justify-center font-poppins text-sm md:text-md py-4 bg-gray-100 mt-8">
                 <span className="text-gray-700">
-                    Developed and maintained by 
+                    Developed by 
                     <a href="https://arierisworld.com/" className="text-blue-600 hover:text-blue-300 transition-colors duration-300 ml-1 font-semibold">
                     Arieri's World
                     </a>
